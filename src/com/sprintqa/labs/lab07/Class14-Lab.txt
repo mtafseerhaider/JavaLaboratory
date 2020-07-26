@@ -1,0 +1,78 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding. 
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step 
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                               Topics: For Each Loop
+---------------------------------------------------------------------------------------------------------------
+Given an array of vowels of type char. Write a program to print each vowel on the console using the for each
+loop. The output of your program should be:
+
+a
+e
+i
+o
+u
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                                Topics: 2D Arrays
+---------------------------------------------------------------------------------------------------------------
+Given matrix {{ 1, 2, 3}, { 3, 4, 8}, { 5, 6, 7 }, { 8, 9, 3}} of type integer. Write a program to print the 
+matrix using normal for loops. The output of your program should be:
+
+1 2 3 
+3 4 8 
+5 6 7 
+8 9 3
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                                Topics: 2D Arrays
+---------------------------------------------------------------------------------------------------------------
+Given matrix {{ 1, 2, 3}, { 3, 4, 8}, { 5, 6, 7 }, { 8, 9, 3}} of type integer. Write a program to print the 
+matrix using for each loops. The output of your program should be:
+
+1 2 3 
+3 4 8 
+5 6 7 
+8 9 3
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 4
+                                                Topics: 2D Arrays
+---------------------------------------------------------------------------------------------------------------
+Given matrix {1, 2, 3} . Write a program to find the number of rows, columns and size of the matrix.   
+		     {4, 5, 6}    
+		     {7, 8, 9}
+		     {4, 6, 2}
+The output of your program should be:		    
+		    
+No. of Rows: 4
+No. of Columns: 3
+Size of the matrix: 12		    
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 5
+                                                Topics: 2D Arrays
+---------------------------------------------------------------------------------------------------------------		    
+Given matrix {2, 0, 0} . Write a program to find whether the given matrix is a sparse matrix or not. 
+		     {0, 4, 0}    
+		     {0, 0, 6}
+		     
+The output of your program should be:		    
+		    
+Given matrix is a sparse matrix
+
+Info: Sparse Matrix
+A matrix is said to be sparse matrix if most of the elements of that matrix are 0. It implies that it contains 
+very less non-zero elements.
+		    
+Hint: if no. of zeros in the matrix > size of matrix / 2, then matrix is sparse.		     
+---------------------------------------------------------------------------------------------------------------			     

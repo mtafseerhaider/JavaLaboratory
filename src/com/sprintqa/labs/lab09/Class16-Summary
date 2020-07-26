@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------------------------------
+                                  Topics:  Source Control, VCS, Git
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                                 Recap
+----------------------------------------------------------------------------------------------------------
+- What is the difference between GUI and CLI?
+  GUI allows the user to interact with the system using graphical elements such as windows, icons, menus
+  while the Command Line Interface (CLI) allows the user to interact with the system using commands.
+
+- What is a shell in terms of a CLI?
+  CLIs that interface with the operating system are called shells.
+  Shells for Windows are PowerShell, CMD and DOS.
+  Bash is the modern shell using by Git Bash.
+
+- What is the command to change the directory? | cd [directoryName]
+- What is the command to navigate to home directory? | cd ~
+- What is the command to show the current working directory? | pwd
+- What is the command to display the name of files and subdirectories in a directory? | ls
+
+- What is Git?
+  Git is a decentralized and distributed version control system.
+- What is a repository in Git?
+  A directory or storage space where your projects can live. Sometimes GitHub users shorten this to “repo.”
+  It can be local to a folder on your computer, or it can be a storage space on GitHub or another online host.
+  You can keep code files, text files, image files, you name it, inside a repository.
+- What are the three stages of Git?
+  Working directory, Staging area, Commit stage (Git repository)
+  Files in a repository go through three stages before being under version control with git:
+  1. Untracked: the file exists, but is not part of git's version control
+  2. Staged: the file has been added to git's version control but changes have not been committed
+  3. Committed: the change has been committed
+- What is a remote repository?
+  The repository on Github storage space.
+- What is master branch?
+  In Git, "master" is a naming convention for a branch. After cloning (downloading) a project from a remote server,
+  the resulting local repository has a single local branch: the so-called "master" branch. This means that "master"
+  can be seen as a repository's "default" branch.
+- What is the command to add a file to git staging area? | git add [filename]
+- What is the command to add the file to .git folder? | git commit -m "message"
+----------------------------------------------------------------------------------------------------------
+                                                 Untracked Files
+----------------------------------------------------------------------------------------------------------
+- These are the files that exists in your project locally but are not part of the git’s version control.
+
+- This these are files in stage 1 of git workflow i.e. working directory.
+----------------------------------------------------------------------------------------------------------
+                                                  Tracked Files
+----------------------------------------------------------------------------------------------------------
+- A tracked file is any file that Git is aware of and tracking actively.
+
+- That would be any file that has already been committed into the Git repository, or any file that has been
+  added to the Git index, or the Git staging area.
+
+- So, a way to find out if your file is being tracked by Git, is to use the "git ls-files" command.
+
+----------------------------------------------------------------------------------------------------------
+                                                  Git Push
+----------------------------------------------------------------------------------------------------------
+- The git push command is used to upload local repository content to a remote repository.
+
+- Pushing is how you transfer commits from your local repository to a remote repo.
+
+- Command: git push <remote> <branch>
+
+- git push is most commonly used to publish an upload local changes to a central repository.
+
+- After a local repository has been modified a push is executed to share the modifications with remote team members.
+----------------------------------------------------------------------------------------------------------
+                                                  Git Pull
+----------------------------------------------------------------------------------------------------------
+- The git pull command is used to fetch and download content from a remote repository and immediately
+  update the local repository to match that content.
+
+- Command: git pull <remote> <branch>
+
+- The git pull command is actually a combination of two other commands, git fetch followed by git merge.
+  In the first stage of operation git pull will execute a git fetch scoped to the local branch that HEAD
+  is pointed at.
+
+- The HEAD points out the last commit in the current checkout branch. It is like a pointer to any reference.
+  The HEAD can be understood as the "current branch." When you switch branches with 'checkout,' the HEAD is
+  transferred to the new branch.
+
+- Once the content is downloaded, git pull will enter a merge workflow. A new merge commit will be created
+  and HEAD updated to point at the new commit.
+
+

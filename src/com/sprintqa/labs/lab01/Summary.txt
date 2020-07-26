@@ -1,0 +1,109 @@
+-----------------------------------------------------------------------------------------------------
+  Topics: Programming. Intro to Java. Java components. Data Types & Variables. First Java Programs. 
+                                       Summary Points
+-----------------------------------------------------------------------------------------------------
+                                          Intro to Java & Java components
+-----------------------------------------------------------------------------------------------------
+- Java was designed by James Gosling while he was working at Sun Microsystems in the early 1990s. 
+  The project was initially called 'Oak' before a highly caffeinated brainstorming session produced 
+  the name 'Java' (although they very nearly went with 'Silk'). Java, or Jawa in Indonesian, is the 
+  name of a large island in Indonesia that produces strong, dark and sweet coffee. It has been a slang 
+  term for coffee in the United States since the 1800s.
+  
+ - Java platform is a collection of software components which allow development and execution of 
+   bytecode based languages.
+   
+ - Bytecode is binary code that Java platform interpret. The Java platform is composed of
+		1. Compiler – It generate bytecode from source code
+		2. Java Virtual Machine – It provide runtime execution environment for bytecode.
+		3. Libraries – It contain Java API.
+		4. Tools – Various Java Tools.   
+		
+- The Java bytecode has two important characteristics
+		1. It is processor independent i.e. the program can run on any processor architecture.
+		2. It is Operating System independent i.e. bytecode does not target any Operating
+		   System such as Windows or Linux.	
+		   
+- The Java platform is available in four flavors based upon device type.
+		1. Java Card – It is used in smart cards and small memory devices.
+		2. Java ME (Micro Edition) – It is used in Personnel Digital Assistants, Setup Box and
+		   printers application.
+		3. Java SE (Standard Edition) – It is used in development of desktop, communication
+		   and User Interface based applications.
+		4. Java EE (Enterprise Edition) – It is used in development of web based, messaging,
+		   distributed and enterprise applications.	
+		   
+- Some of the important attributes of Java Language are:
+		1. Statically typed – The type of the variable is known at compile time.
+		2. Object oriented – Object centered programming.
+		3. Concurrent – Support for multi-threading programming.
+		4. Reflective – Allows inspection of class, method, interface, fields.	
+
+- The minimum environment required for a java program to run is called JRE (Java Runtime Engine).
+  
+- JDK is the minimum environment required for development of Java Applications.
+
+- Compiler (Javac.exe) is used to compile java code to bytecode. The compilation process generate
+  bytecode. Bytecode is binary code that is understood by Java Virtual Machine (JVM).
+
+- Interpreter (java.exe) is used to process bytecode to native code. It is used for executing Java 
+  programs i.e. the interpreter take bytecode as an input and execute that code by converting it to 
+  native code.
+  
+-----------------------------------------------------------------------------------------------------
+                                          First Java Programs
+-----------------------------------------------------------------------------------------------------  
+- A class represents a single concept.
+
+- A Java program must have one class whose name is the same as the program filename.
+
+- In Java, every application must contain a main() method, which is the entry point for the application. 
+  All other methods are invoked from the main() method.
+  
+- The signature of the main method is public static void main(String[] args) { } . It accepts a single 
+  argument: an array of elements of type String.
+  
+- System.out.println() can print to the console:
+    - System is a class from the core library provided by Java
+    - out is an object that controls the output
+    - println() is a method associated with that object that receives a single argument  
+    
+- Java has three kinds of comments:
+		1. Single-line: // this is single line comment
+		2. Multi-line comment: /* this is multi line comments */
+		3. JavaDoc comments: /** JavaDoc comments */.
+
+- In Java, when we compile a program, each individual class is converted into a .class file, which is 
+  known as byte code.
+
+- In Java, a statement is a line of code that executes a task and is terminated with a ; . 
+
+- In Java, literals are used to indicate simple values in your Java programs.
+-----------------------------------------------------------------------------------------------------
+                                           Variables & Data Types
+-----------------------------------------------------------------------------------------------------
+- A variable is a location in memory (storage area) to hold data. To indicate the storage area, each 
+  variable should be given a unique name (identifier).
+
+- Variables have a name, a type, and a value. Before you can use a variable, you have to declare it. 
+  After it is declared, you can then assign values to it.
+  
+- Java actually has three kinds of variables: instance variables, class variables, and local variables.  
+
+- Java’s most basic data types are known as primitive data types and are in the system by default.
+  The available types are as follows: int, char, boolean, byte, short, long, float, double, null
+
+- In Java, the int datatype is used to store integer values. This means that it can store all positive 
+  and negative whole numbers and zero.
+  
+- In Java, the boolean primitive data type is used to store a value, which can be either true or false .  
+
+- In Java, char is used to store a single character. The character must be enclosed in single quotes.
+
+- A String in Java is a Object that holds multiple characters. It is not a primitive datatype.
+
+- A String can be created by placing characters between a pair of double quotes ( " ).
+
+- To compare Strings, the equals() method must be used instead of the primitive equality comparator == .
+---------------------------------------------------------------------------------------------------------
+	   	   	

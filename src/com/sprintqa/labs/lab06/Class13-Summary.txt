@@ -1,0 +1,117 @@
+--------------------------------------------------------------------------------------------------------
+                                            Topics:  Arrays
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                             Arrays Definition
+----------------------------------------------------------------------------------------------------------
+- By definition, an array is simply a group or collection or arrangement of items in the form of rows and 
+  columns, and in pure programmatic sense, an array is a data structure that contains a group of elements 
+  of the same data type. In other words, arrays are special objects or containers that can hold multiple 
+  values in a single variable, instead of declaring separate variables for each value.
+----------------------------------------------------------------------------------------------------------
+                                            Arrays Declaration
+----------------------------------------------------------------------------------------------------------  
+- When you declare an array, you define the type of the elements in the array with single bracket []. 
+  The type of an array can be any type, a primitive, class, or an interface.
+  
+  dataType [] variableName;     OR    dataType variableName [];
+  
+- The brackets, [], are the array identifier. Also called the indexing operator. 
+
+- One set of brackets on the declaration side is required to identify a one-dimensional array, and two set 
+  of brackets to identify two-dimensional array, and so on.
+
+- You never include the size of the array on the declaration side, the left-hand side, of a 
+  declaration/initialization statement. 
+----------------------------------------------------------------------------------------------------------
+                                          Valid Arrays Declarations
+----------------------------------------------------------------------------------------------------------   
+- int [] intArray; // brackets can be associated to the type, indicating that the variable is an array
+
+- short shortArray[]; // brackets can be associated to the variable name, indicating that variable is array
+
+- int a, b[], c; // you can define multiple variables of a type on one line, including arrays of that type.
+----------------------------------------------------------------------------------------------------------
+                                        Invalid Arrays Declarations
+----------------------------------------------------------------------------------------------------------  
+- int[2] intArray; // size is not part of the declaration. Compile error.
+
+- int intArray[2]; // size is not part of the declaration. Compile error.
+
+- int a, float b[]; // you can NOT define multiple variables of different types in the same line, separated
+                       by commas.
+----------------------------------------------------------------------------------------------------------
+                                           Array Initializer
+----------------------------------------------------------------------------------------------------------
+- An array initializer is a shortcut, that allows you to create and initialize each element in an array, 
+  in one statement.
+
+  int[] intArray = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}; // creates an array of type int with 10 elements
+                                                    // all initialized with specified values
+  
+  String[] stringArray = {"one", "two", null, "three"}; // creates an array of type String with 4 elements
+                                                        // all initialized with specified values                                                                             
+----------------------------------------------------------------------------------------------------------
+                                           Creating an Array
+----------------------------------------------------------------------------------------------------------
+- To create/initialize an array, use the new operator like this:
+
+  int[] intArray = new int[10]; // creates an array of int with 10 elements initialized to 0.
+  
+- You must define the size of the array, in brackets.
+
+- Once the size is defined, you CANNOT change the size of an array.
+----------------------------------------------------------------------------------------------------------
+                                             Default Array Sizes
+----------------------------------------------------------------------------------------------------------
+- Numeric primitives are set to 0.
+
+- Boolean primitives are set to false.
+
+- References, including primitive data type wrappers, objects, Strings, are set to null.
+----------------------------------------------------------------------------------------------------------
+                                          Valid Arrays Creations
+---------------------------------------------------------------------------------------------------------- 
+- int[] myIntArray = new int[50];
+
+- short myShortArray[] = new short[20];
+
+- int[] mySecondIntArray = null; // you can set an array to null.
+
+- String[] myStringArray;
+  myStringArray = new String[12];
+  
+- int[] myIntArray, mySecondIntArray = new int [50]; // only second array is initialized. 
+
+- int[] myIntArray, mySecondIntArray = myIntArray = new int [50]; // both arrays are initialized. 
+
+- String[] myArray = {}; // 0 length array
+
+- int a[] = new int[]{1, 2, 3, 4, 5}; // you can combine the array initializer with the new operator
+                                     // as long as you don't state the size of the array in brackets
+----------------------------------------------------------------------------------------------------------
+                                         Invalid Arrays Creations
+----------------------------------------------------------------------------------------------------------                                     
+- String[] stringArray = new String(){3}; // the () will generates compile error.
+
+- String [3] stringArray = new String[]; // size needs to be on the right side of the equation.
+
+- int a[] = int[]{1, 2, 3, 4, 5}; // an array initializer does not require a restatement of the array.
+
+- int b[] = new int[5] {1, 2, 3, 4, 5}; // invalid because size is stated
+
+- String[] myArray;
+  myArray = {"one", "two", null, "three"}; // you cannot use the array initializer on a separate
+                                          // statement line from the declaration of the array.
+----------------------------------------------------------------------------------------------------------
+                                              Array Index
+----------------------------------------------------------------------------------------------------------
+- An index in an array is just the location or position of the element in the array. 
+
+- The index of an array starts from 0 and goes up to one less than the total length of the array.
+
+- In reality, the index in an array is not really an index. It is simply an offset that is the distance of 
+  the element from the start of the array. 
+  
+- You can access the items in an array by using the [i] notation, where i is the index you want to access.
+----------------------------------------------------------------------------------------------------------                                                                          

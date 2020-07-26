@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding. 
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step 
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 1
+                          Topics: String Concatenation, Concatenation Operator, Scanner class
+---------------------------------------------------------------------------------------------------------------
+Write a program to take your first name, middle name, and last name as user inputs. Concatenate your names to 
+print your full name on the console.
+The sample input and output of your program should be:
+
+Enter your firstname >>>John
+Enter your middle name >>>Vilde
+Enter your lastname >>>Martin
+My full name is: John Vilde Martin
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 2
+                                              Topics: Scanner class
+---------------------------------------------------------------------------------------------------------------
+Write a program to calculate an employee’s gross pay. Take pay rate and work hours from user input.
+The sample input and output of your program should be:
+
+Enter the number of hours you worked. >>>40
+Enter your pay rate. >>>30
+Your gross pay is: $1200.0
+
+*Hint: Gross pay = hours worked * hourly rate
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 3
+                                        Topics: If statement, Scanner class
+---------------------------------------------------------------------------------------------------------------
+All salespeople get a payment of $700 a week. Salespeople who exceed 10 sales get an additional bonus of $300. 
+Write a program which extra sales as input from the user and calculate the employee’s total salary in a week.
+The sample input and output of your program should be:
+
+How many sales did the employee make this week?
+12
+The employee's pay is $1000.0
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 4
+                                      Topics: If-Else statement, Scanner class
+---------------------------------------------------------------------------------------------------------------
+All salespeople are expected to make at least 10 sales each week. Write a program to calculate quota of the 
+employees and for those who made 10 sales each week, print a congratulatory message. For those who don't, print 
+how many sales they were short.
+The sample input and output of your program should be:
+
+Enter the number of sales you made this week:
+9
+You did not make your quota. You were 1 sales short
+
+*Hint: salesShort = quota - sales
+----------------------------------------------------------------------------------------------------------------

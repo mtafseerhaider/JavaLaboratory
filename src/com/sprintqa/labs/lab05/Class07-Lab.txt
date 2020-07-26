@@ -1,0 +1,90 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding. 
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step 
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 1
+                                     Topics: Increment/ Decrement Operators
+---------------------------------------------------------------------------------------------------------------
+Declare two variables x and y. Initialize x with 10. Add 10 and post-incremented x to y. Print the values of x
+and y before and after post-increment. Now Initialize x with 15. Add 15 and pre-incremented x to y. Print the 
+values of x and y before and after pre-increment. Add 10 and post-decremented x to y. Print the values of x
+and y before and after post-decrement. Lastly, add 10 and pre-decremented x to y. Print the values of x
+and y before and after pre-decrement. 
+The output of your program should be:
+
+Before x++ : Value of x = 10
+Value of y = 20
+After x++ : Value of x = 11
+Before ++x : Value of x = 15
+Value of y = 31
+After ++x : Value of x = 16
+Before x-- : Value of x = 16
+Value of y = 26
+After x-- : Value of x = 15
+Before --x: Value of x = 15
+Value of y = 24
+After --x : Value of x = 14
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 2
+                                               Topics: While Loop
+---------------------------------------------------------------------------------------------------------------
+Write a program to find the sum of first 100 natural numbers. The output of your program should be:
+
+Sum of 1st 100 natural numbers is: 5050
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 3
+                                               Topics: While Loop
+---------------------------------------------------------------------------------------------------------------
+Write a program that asks the user to input an integer and prints it until user enter 0 (zero).
+The sample input and output of your program should be:
+
+Enter your number:
+5
+You entered: 5
+Enter your number:
+0
+You are out of loop because you entered: 0
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 4
+                                               Topics: While Loop
+---------------------------------------------------------------------------------------------------------------
+Each store employee makes $15 an hour. Maximum hours allowed are 40. Write a program that allows the employee
+to enter the number of hours worked for the week and calculate its gross pay. Do not allow overtime and if 
+user enters more than 40 hours then ask the user to try again. You program must not close when you ask user
+to try again. The sample input and output of your program should be:
+
+How many hours did you work this week?
+41
+Invalid entry. Your hours must be between 1 and 40. Try again.
+40
+Your gross pay: $600.0
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 5
+                                               Topics: While Loop
+---------------------------------------------------------------------------------------------------------------
+Write a program to print the multiplication table 1-10 of a number entered by user using a while loop.
+The sample input and output of your program should be:
+
+Enter your number to print its multiplication table:
+5
+5*1 = 5
+5*2 = 10
+5*3 = 15
+5*4 = 20
+5*5 = 25
+5*6 = 30
+5*7 = 35
+5*8 = 40
+5*9 = 45
+5*10 = 50
+---------------------------------------------------------------------------------------------------------------

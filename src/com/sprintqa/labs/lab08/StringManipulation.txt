@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------------------------------------
+                                     Topics: String Manipulations
+                                             Summary Points
+--------------------------------------------------------------------------------------------------------------
+                                            Strings in Java
+--------------------------------------------------------------------------------------------------------------
+- In Java, a string is a sequence of characters. For example, "hello" is a string containing a sequence of 
+  characters 'h', 'e', 'l', 'l', and 'o'.
+  
+- Unlike other programming languages, strings in Java are not primitive types (like int, char, etc). Instead, 
+  all strings are objects of a predefined class named String. For example,
+  
+  String string = "sprintqa";
+  
+  Here string is an instance of the String class. All string variables are instances of the String class.
+  
+- In Java, we use double quotes to represent a string.
+
+- In Java, creating a string means creating an object of the String class. When we create a string, we cannot 
+  change that string in Java. This is why strings are called immutable in Java.
+----------------------------------------------------------------------------------------------------------------
+                                            Java String Methods
+----------------------------------------------------------------------------------------------------------------
+- Java String provides various methods that allow us to perform different string operations. 
+  Here are some of the commonly used string methods. 
+  
+  1. length(): the length() string method returns the total number of characters i.e. length of a String.
+  
+  2. concat(): the concat() string method is used to append one String to the end of another String. 
+               This method returns a String representing the text of the combined strings.
+               
+  3. equals(): the equals() string method tests for equality between two Strings. 
+               This method compares the contents of each String . If all of the characters between the two match, 
+               the method returns true . If any of the characters do not match, it returns false.
+               
+               Additionally, if you want to compare two strings without considering upper/lower cases, you can 
+               use .equalsIgnoreCase(). 
+               
+               We can also use the == operator and compareTo() method to make a comparison between 2 strings.            
+  
+  4. indexOf(): the indexOf() string method returns the first occurrence of a character or a substring in 
+                a String. The character/substring that you want to find the index of goes inside of the ().
+                If indexOf() cannot find the character or substring, it will return -1.
+  
+  5. charAt(): the charAt() string method returns the character of a String at a specified index. 
+               The index value is passed inside of the () , and should lie between 0 and length()-1. 
+               
+  6. toUpperCase(): returns the string value converted to uppercase.
+  
+  7. toLowerCase(): returns the string value converted to lowercase. 
+  
+  8. replace(): replaces the specified old character with the specified new character.
+  
+  9. substring(): returns the substring of the string.
+  
+  10. split(): breaks the string into an array of strings.
+  
+  11. valueOf(): returns the string representation of the specified data.
+  
+  12. matches(): returns true if string matches the given regular expression otherwise false.
+  
+  13. contains(): returns true if and only if this string contains the specified sequence of char values. 
+  
+  14. join(): returns a new String composed of copies of the CharSequence elements joined together with a 
+              copy of the specified delimiter. 
+              
+  15. trim(): returns a string whose value is this string, with any leading and trailing whitespace removed.
+  
+  16. toCharArray(): converts a string to a new character array. 
+----------------------------------------------------------------------------------------------------------------                                    

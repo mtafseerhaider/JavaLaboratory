@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------------------------------
+                                  Topics: Enhanced for loop & 2D Arrays
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                           Enhanced for loop
+----------------------------------------------------------------------------------------------------------
+- The enhanced for loop (aka for each loop) steps through the elements of an array or collection in 
+  first-to-last order, and you do not need to know the index of the current element.
+  
+- The syntax of for each loop is:
+  for(data_type item : collection) {
+    ...
+  }
+  
+  collection - a collection or array that you have to loop through.
+  item - a single item from the collections.
+  The colon in the syntax can be read as "in".
+  
+- For each iteration, the for-each loop iterates through each item in given collections or arrays 
+  (collections), stores each item in a variable (item) and executes the body of the loop.  
+  
+- The for-each loop, introduced in release 1.5, gets rid of the clutter and the opportunity for error by 
+  hiding the iterator or index variable completely.  
+  
+- In general, enhanced for loop is much more easy to use and less error prone than for loop, where you need 
+  to manage the steps manually. At the same time, for loop is much more powerful because you get the 
+  opportunity to control over looping process. 
+  
+- Note that there is no performance penalty for using the for-each loop, even for arrays. In fact, it may 
+  offer a slight performance advantage over an ordinary for loop in some circumstances, as it computes the 
+  limit of the array index only once.   
+----------------------------------------------------------------------------------------------------------
+                                    Multidimensional Arrays Definition
+----------------------------------------------------------------------------------------------------------
+- A multidimensional array is an array of arrays. That is, each element of a multidimensional array is an 
+  array itself.
+----------------------------------------------------------------------------------------------------------
+                                          2D Arrays Definition
+----------------------------------------------------------------------------------------------------------
+- The 2D array is organized as a matrix which can be represented as the collection of rows and columns.
+
+- The number of elements (size) that can be present in a 2D array will always be equal to 
+  (number of rows * number of columns).
+
+- 2D arrays are created to implement a relational database look alike data structure. It provides ease of 
+  holding bulk of data at once which can be passed to any number of functions wherever required.
+----------------------------------------------------------------------------------------------------------
+                                          2D Arrays Declaration
+----------------------------------------------------------------------------------------------------------  
+- When you declare a 2D array, you define the type of the elements in the array with two brackets [][]. 
+  The type of an array can be any type, a primitive, class, or an interface.
+  
+  dataType [][] variableName;     OR    dataType variableName [][];
+  
+- The brackets, [][], are the 2D array identifier.
+---------------------------------------------------------------------------------------------------------
+                                     Valid 2D Arrays Declarations
+----------------------------------------------------------------------------------------------------------   
+- int [][] matrix; 
+
+- String [] matrix [];
+
+- int [] a, b[], c; // you can define multiple variables of a type on one line, including arrays of that 
+                   // type. Note that b here is a two dimensional array.          
+----------------------------------------------------------------------------------------------------------
+                                Valid 2D Array Initializations & Creations
+----------------------------------------------------------------------------------------------------------
+- int[][] matrix = {{1, 2}, {3, 4}, {5, 6, 7}};
+  
+- String[] matrix [] = {{"one","two"}, {"three", "four"}}; 
+
+- int[][] matrix = new int[2][2]; 
+
+- int[][] matrix = new int[2][]; // Only the first dimension is required to have a size because you can
+                                  // an array of arrays and the arrays referenced by the element indices
+                                 // can be different sizes.                                                                              
+----------------------------------------------------------------------------------------------------------
+                                     Invalid 2D Arrays Creations
+----------------------------------------------------------------------------------------------------------                                     
+- int[][] matrix = new int[][];
+
+- int[][] matrix = new int[][2];
+
+- int[] array = new int[5][]; // you cannot initialize a 2D array and assign it to a one dimensional array
+----------------------------------------------------------------------------------------------------------  

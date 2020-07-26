@@ -1,0 +1,55 @@
+--------------------------------------------------------------------------------------------------------
+                        Topics: Static Keyword, Instance, Static, and Local Variables
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                         Instance Variables
+----------------------------------------------------------------------------------------------------------
+- Instance variables are declared in a class, but outside a method, constructor or any block.
+
+- When a space is allocated for an object in the heap, a slot for each instance variable value is created.
+
+- Instance variables are created when an object is created with the use of the keyword 'new' and destroyed
+  when the object is destroyed.
+
+- Instance variables have default values. For numbers, the default value is 0, for Booleans it is false, and
+  for object references it is null. Values can be assigned during the declaration or within the constructor.
+----------------------------------------------------------------------------------------------------------
+                                    Local and Global Variables
+----------------------------------------------------------------------------------------------------------
+- Variables that are defined within a method, constructors, or blocks are called local variables.
+
+- Access modifiers cannot be used for local variables.
+
+- There is no default value for local variables, so local variables should be declared and an initial
+  value should be assigned before the first use.
+----------------------------------------------------------------------------------------------------------
+                                    Static Non-Access Modifier
+----------------------------------------------------------------------------------------------------------
+- Static keyword is used for members of a class which can be accessed without using an instance of the
+  class. Because it’s not associated with an instantiation, these members have no state.
+
+- If we want to access class members without creating an instance of the class, we need to declare the
+  class members static.
+
+- In a static context, there's no such thing as state — you're just calling to a method itself.
+
+- If we don't want to use static and we want to keep state, then what we would need to do is create
+  an instance and then call the members of the class.
+----------------------------------------------------------------------------------------------------------
+                                       Static Variables
+----------------------------------------------------------------------------------------------------------
+- If we declare a variable static, all objects of the class will share the same static variable.
+  It is because static variables are associated with the class. And, we don't need to create objects of the
+  class to access the static variables.
+----------------------------------------------------------------------------------------------------------
+                                         Static Methods
+----------------------------------------------------------------------------------------------------------
+- Static methods are also called class methods. It is because a static method belongs to the class rather
+ than the object of a class. And we can invoke static methods directly using the class name.
+----------------------------------------------------------------------------------------------------------
+                                     Important Note on Static
+----------------------------------------------------------------------------------------------------------
+- Static variables are rarely used in Java. Instead, the static constants are used. These static constants
+  are defined by static final keyword and represented in uppercase. This is why some people prefer to use
+  uppercase for static variables as well.
+----------------------------------------------------------------------------------------------------------

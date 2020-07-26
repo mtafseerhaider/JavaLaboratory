@@ -1,0 +1,41 @@
+-----------------------------------------------------------------------------------------------------
+                     Topics: Operators in Java: Assignment Arithmetic, Comparison
+                                       Summary Points
+-----------------------------------------------------------------------------------------------------
+                                         Expressions & Operators
+-----------------------------------------------------------------------------------------------------
+- Expressions are the simplest form of statement in Java that actually accomplishes something. 
+  Expressions are statements that return a value.
+  
+- Operators are special symbols that are commonly used in expressions. Operators in Java include 
+  arithmetic, various forms of assignment, increment and decrement, and logical operations. 
+-----------------------------------------------------------------------------------------------------
+                                         Assignment Operators
+-----------------------------------------------------------------------------------------------------
+- Assignment operators are used in Java to assign values to variables.
+  = assignment e.g. x = 5;
+  += compound assignment e.g. x += 5 is equivalent to	x = x + 5
+  *= compound assignment e.g. x *= 5 is equivalent to	x = x * 5
+  /= compound assignment e.g. x /= 5 is equivalent to	x = x / 5
+  %= compound assignment e.g. x %= 5 is equivalent to	x = x % 5
+ -----------------------------------------------------------------------------------------------------
+                                         Arithmetic Operators
+-----------------------------------------------------------------------------------------------------
+- Basic math operations can be applied to int , double and float data types:
+   + addition
+   - subtraction
+   * multiplication
+   / division
+   % modulo (yields the remainder)
+-----------------------------------------------------------------------------------------------------
+                                         Comparison Operators
+-----------------------------------------------------------------------------------------------------
+- Comparison operators can be used to compare two values. They are supported for primitive data types 
+  and the result of a comparison is a boolean value true or false. The operators are:
+  > greater than
+  < less than
+  >= greater than or equal to
+  <= less than or equal to
+  == equal to
+  != not equal to   
+ -----------------------------------------------------------------------------------------------------

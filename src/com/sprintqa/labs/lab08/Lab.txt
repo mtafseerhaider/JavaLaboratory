@@ -1,0 +1,99 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding. 
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step 
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Create a string object of String class and assign the newly created string to "Sprinters!".
+Print the length of the string. The output of your program should be:
+
+Length of the given string is: 10
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Given a string "Apology without changed behavior is manipulation". Print the character at first and last
+index. The output of your program should be:
+
+Character at first index: A
+Character at first index: n
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Write a program to count the total number of alphabetical characters present in the quote:
+“Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do.”
+
+The output of your program should be:
+
+Total number of alphabetical characters in the given quote: 55
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 4
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Create a string and assign "Madam" to it. Now on the same line of string initialization concatenate "in Eden",
+"I'm Adam" and "!" using the concat() method of the String class. The resulting string should be a palindrome
+and should be:
+
+Madam, in Eden I'm Adam!
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 5
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Write a program to convert the word "Floccinaucinihilipilification" to its upper case and then convert it into
+a character array and print all the elements of the resulting array on console.
+The output of your program should be:
+
+F L O C C I N A U C I N I H I L I P I L I F I C A T I O N 
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 6
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Write a program to check if "AustraliaVsEngland" and "EnglandAustraliaVs" are rotation of each other.
+The output of your program should be:
+
+AustraliaVsEngland and EnglandAustraliaVs are rotation of each other
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 7
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+You are given an integer number 108. Convert this number to its string equivalent and replace 0 with space.
+The output of your program should be:
+
+1 8
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 8
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Write a program to print the total count of vowels and consonants in: 
+"Live as if you were to die tomorrow. Learn as if you were to live forever."
+The output of your program should be:
+
+Number of vowels: 28
+Number of consonants: 29
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 9
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Write a program to reverse the word "programming". The output of your program should be:
+
+gnimmargorp
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 10
+                                           Topics: String Manipulations
+---------------------------------------------------------------------------------------------------------------
+Write a program to check if the word racecar is a palindrome or not. The output of your program should be:
+
+racecar is a palindrome.
+---------------------------------------------------------------------------------------------------------------

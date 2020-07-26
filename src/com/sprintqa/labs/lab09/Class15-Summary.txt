@@ -1,0 +1,158 @@
+--------------------------------------------------------------------------------------------------------
+                                  Topics:  Source Control, VCS, Git
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                           Why Source Control
+----------------------------------------------------------------------------------------------------------
+- Source control is a type of backup. It's not just a normal backup that's difficult to access or restore.
+
+- No, instead, it's an ongoing backup of every version of your source you have made; creating a history,
+  or a trail, of changes.
+
+- This allows you to undo changes that you've made or restore from a previous known state.
+
+- In doing so, you could compare various revisions of your code; for example, what has changed in the last 
+  two weeks.
+
+- In the process of moving your exclusive residence of your source from your local system to a shared server,
+  your source can allow collaboration and team work on a project.
+
+- And while working on a team, sometimes you need to know who to blame for breaking the latest build, or other
+  opportunities for learning.
+
+- Source control supports the concept of branching off to make changes in isolation.
+
+- This encourages experimentation, but in a safe way, without immediately impacting ongoing ndw
+  development.
+
+- Finally, some source control systems provide excellent support for reviewing code for collaborative
+  learning and improving the quality of the project.
+----------------------------------------------------------------------------------------------------------
+                                           Who needs Source Control?
+----------------------------------------------------------------------------------------------------------
+- Software developers/engineers/programmers
+    Source code (Java, C++, Python, Ruby, etc.)
+    Models (UML, ERB)
+    SQL, configuration, text files
+
+- Freelancers
+- Web Designers
+    Mockups, Web site assets (pages, images)
+- Graphic Artists
+    Original art, vector graphics, Photoshop files
+----------------------------------------------------------------------------------------------------------
+                                           Source Control Options
+----------------------------------------------------------------------------------------------------------
+- While there are many types and flavors of version control systems out there, mostly two major types:
+  centralized and decentralized, or also known as distributed.
+
+- The main concept with centralized systems, is that there is a centralized server that is the ultimate
+  source of truth for a collection of versioned files. This normally means that a network connection is
+  required to the central server for most operations, including just editing a file.
+
+- On the tools side, we have Subversion and CVS, which are the free and open source options.
+  Commercial offerings include Perforce, and TFS, as well as many others.
+
+- On the flip side, the decentralized or distributed approach doesn't mandate a central source of truth,
+  and allows for most operations to be local. For example, you could get some meaningful work done
+  while on an airplane crossing the Atlantic Ocean, completely disconnected from your company network,
+  and the internet.
+
+- Source control systems that fit this model include Mercurial and Git.
+----------------------------------------------------------------------------------------------------------
+                                             Why Git?
+----------------------------------------------------------------------------------------------------------
+- Git is a decentralized and distributed version control system. While Git is decentralized, most people
+  still choose to use it with a central server to serve as the main repository for a project or team.
+
+- Because of the distributed nature, Git can scale massively; for example, the creator of Git, Linus Torvalds,
+  wanted to create a version control system that could handle the requirements of the Linux kernel project,
+  which he also created. Today, the Linux kernel project contains over 15 million lines of code,
+  with over 1200 worldwide developers contributing to the project in dozens of active branches.
+
+- Another key benefit of being distributed is that most operations in Git are local; there are only a few
+  commands that require a network connection. Otherwise, you can work completely disconnected;
+  even preforming comparisons and commits completely off-network.
+
+- Since most operations are local, Git is very fast with the same operations.
+
+- Also, Git is free and open source, which also contributes to its popularity.
+
+- Git has a very active community, and there are many resources available online.
+
+- Also, it is very easy to find developers that already have experience with Git.
+
+- Because of all these factors, Git has become the most popular version control system.
+
+- Git's "de facto" standard status means that Git enjoys wide adoption and integration into other tools
+  used by the development community, including text editors, bug tracking systems, and build servers.
+----------------------------------------------------------------------------------------------------------
+                                             Key Git Concepts
+----------------------------------------------------------------------------------------------------------
+- Before we dive in, there are just a few concepts you need to know. First, in Git, collections of
+  version controlled files are kept together in a repository. The repository also contains the history of
+  changes and any special configuration. Generally speaking, a repository would contain all the files
+  related to a specific project or application.
+
+- Next, you need to know about the three local states related to files being managed by Git:
+  the working directory, staging area, and the Git repository or the commit history.
+
+- The working directory is the directory or folder on your computer that holds all the project files.
+  Files within the working directory, may or may not be managed by Git. However, Git is aware of them.
+  Normally, within the working directory is a hidden folder called the ".git" folder that contains
+  the actual git repository.
+
+- The Git repository manages the Git commit history, that is all the changes that are finalized and
+  permanently part of the Git repository.
+
+- In-between is the Git staging area, often referred to as the Git index, that is a holding area for
+  queueing up changes for the next commit. Since files in the staging area haven't been committed yet,
+  you can move the files in and out of the staging area without impacting the Git repository, and
+  its history of changes.
+
+- The three states of Git are specific to the local Git repository, but I like to tack on a fourth state,
+  the remote state. Although the remote repository is just another repository with its own three states
+  internally, conceptually, I think of the remote repository as a fourth state; since it is the last
+  step in the basic Git workflow, and since few people use Git without a corresponding remote repository.
+
+- The last concept is the master branch. Conceptually, branches work like they do in other source
+  control systems; they are timelines that contain your changes. In Git, branches contain commits;
+  when we start off, Git provides us with a default branch named master.
+----------------------------------------------------------------------------------------------------------
+                                            Quick Start Guide
+----------------------------------------------------------------------------------------------------------
+- User Home Directory: pwd
+- Create New Directory: mkdir projects
+- Change to New Directory: cd projects/
+- Verify Git Installation: git version
+- Provide Git your Name: git config --global user.name "Tafseer Haider"
+- Provide Git your Email: git config --global user.email "matsfeer.haider@gmail.com"
+- Confirm your Name and Email: git config --global --list
+- Clone Github Repository: git clone <url>
+- Confirm Git Repository: ls
+- Know about the current state of Repository: git status
+- The master branch is the default branch, by convention, for a Git repository.
+- The "git status" command also tells us master is "up-to-date with 'origin/master'.",
+  which refers to the master branch on the GitHub version of the repository;
+  the "git clone" command automatically sets up a relationship back to the repository on GitHub,
+  and named that reference "origin".
+
+- Finally, Git tells us the working directory is clean; the working directory is where we do all the work,
+  and that Git monitors for changes.
+- Add new file using Bash commands: echo "Contents of the file" >> filename.txt
+- Display the contents of that file: cat filename.txt
+- An untracked file is just a file in our working directory that hasn't been added to Git yet.
+- Add file to Git: git add filename.txt
+- Commit command: git commit -m "adding filename.txt"
+- After the commit, I mentioned the fact that our new file is now on the local repository.
+  The commit is still a local command, which means that our file is not yet on GitHub.
+- Push command: git push origin master
+- This version of the "git push" command specifies the remote name, which is origin
+  which was set up for us automatically when we cloned the repository from GitHub;
+  and, the name of the name of the branch to push, which is "master".
+- origin refers to the Github copy of our repository
+- master refers to our default and only branch in the repository
+- Since you are making changes on your repository on GitHub, the "git push" command will prompt
+  you for your GitHub username and password. Once the push command returns, then we can check the results.
+- If we did everything correctly, our new file should be on the GitHub copy of our repository.
+

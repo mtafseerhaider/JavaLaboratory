@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding. 
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step 
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 1
+                                                 Topics: Arrays
+---------------------------------------------------------------------------------------------------------------
+Write a program to create a char array of alphabets and print sprintqa on the console using the indexes of the 
+elements of the array. For example, in alphabets array the letter 's' is at 18th index. So to print 's' you 
+would write System.out.print (alphabets [18]) and so on. The output of your program should be:
+
+sprintqa
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 2
+                                                 Topics: Arrays
+---------------------------------------------------------------------------------------------------------------
+Write a program to create an array of all 8 planets of the solar system. Print the length of the array and also
+print at what index the planet Earth is placed. The output of your program should be:
+
+Length of the planets array is: 7
+Earth is at 2 index
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 3
+                                                 Topics: Arrays
+---------------------------------------------------------------------------------------------------------------
+Write a program to declare an array of type integer with length 20. Add first 20 natural numbers to this array
+using simple for loop. Now print the whole array on a single line using simple for loop. 
+The output of your program should be:
+
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 4
+                                                 Topics: Arrays
+---------------------------------------------------------------------------------------------------------------
+Given an array {5, 15, 20, 25, 30, 35, 40} of type integer. Write a program to find the smallest and largest 
+element in the array. The output of your program should be:
+
+The smallest element present in the given array is: 5
+The largest element present in the given array is: 40
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 5
+                                                 Topics: Arrays
+---------------------------------------------------------------------------------------------------------------
+Given an array {1, 2, 3, 4, 5} of type integer. Write a program to print the array in reverse order.
+The output of your program should be:
+
+Original array:
+1 2 3 4 5 
+Array in reverse order:
+5 4 3 2 1 
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 6
+                                                 Topics: Arrays
+---------------------------------------------------------------------------------------------------------------
+Given an array {2, 22, 222, 2222, 22222} of type integer. Write a program to print the elements at the even
+positions. The output of your program should be:
+
+Elements at even positions:
+22 2222 
+---------------------------------------------------------------------------------------------------------------

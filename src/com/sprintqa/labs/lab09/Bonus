@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------------------------------------
+                                  Topics:  Source Control, VCS, Git
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                                Git Configurations
+----------------------------------------------------------------------------------------------------------
+- You can view all of your settings and where they are coming from using:
+  git config --list --show-origin
+
+- The first thing you should do when you install Git is to set your user name and email address. This is
+  important because every Git commit uses this information, and it’s immutably baked into the commits you
+  start creating:
+  git config --global user.name "John Doe"
+  git config --global user.email johndoe@example.com
+
+- You can configure the default text editor that will be used when Git needs you to type in a message.
+  If not configured, Git uses your system’s default editor.
+  git config --global core.editor emacs OR for Windows
+  git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+- Check your configuration settings
+  git config --list
+
+- Edit your git configuration file
+  git config --global --edit
+
+----------------------------------------------------------------------------------------------------------
+                                                Git Alias
+----------------------------------------------------------------------------------------------------------
+- The term alias is synonymous with a shortcut. Alias creation is a common pattern found in other popular
+  utilities like `bash` shell. Aliases are used to create shorter commands that map to longer commands.
+
+- Aliases are created through the use of the git config command and the Git configuration files.
+  As with other configuration values, aliases can be created in a local or global scope.
+
+- The command to get a really neat looking history of all your commits:
+  git log --all --graph --decorate --oneline
+
+  Let's create an alias for this command as:
+  git config --global alias.hist "log --all --graph --decorate --oneline"
+
+- To remove the alias from the configuration
+  git config --global --unset alias.hist

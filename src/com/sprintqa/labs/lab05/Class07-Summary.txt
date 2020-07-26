@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------------
+                  Topics:  Post and Pre Increment/ Decrement Unary Operators, While Loop
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                            Post and Pre Increment / Decrement Unary Operators
+----------------------------------------------------------------------------------------------------------
+- Increment (++) and decrement (--) operators in Java let you easily add 1 to, or subtract 1 from, a 
+  variable. For example, using increment operators, you can add 1 to a variable named a like this:
+  x++; (equivalent to x = x + 1)
+  x--; (equivalent to x = x - 1)
+
+- An expression that uses an increment or decrement operator is a statement itself. That’s because the 
+  increment or decrement operator is also a type of assignment operator because it changes the value of 
+  the variable it applies to. For example,
+  int x = 5;
+  int y = x--;    // both x and y are set to 4  
+  
+- Increment and decrement operators can be placed before (prefix) or after (postfix) the variable they 
+  apply to. If you place an increment or decrement operator before its variable, the operator is applied 
+  before the rest of the expression is evaluated. If you place the operator after the variable, the operator 
+  is applied after the expression is evaluated. For example,
+  int a = 5;
+  int b = 3;
+  int c = a * b++;   // c is set to 15
+  int d = a * ++b;   // d is set to 20 
+  
+- The difference between the two is that the postfix operator returns the existing value of the variable 
+  while prefix operator returns the updated value of the variable.  
+  
+- In postfix expression, first assignment is done then value gets incremented or decremented.
+
+- In prefix expression, first value get incremented or decremented then assignment is done.                                     
+--------------------------------------------------------------------------------------------------------
+                                          Java Control Statements
+                  Iteration Statements | Repetition Structures | Loops: While Loop
+--------------------------------------------------------------------------------------------------------
+- Loops are structures that cause a block of code to repeat.
+
+- In most cases when you need your code to repeat the same statements more than once, it's best to wrap 
+  them within a loop. This eliminates the redundant act of copying and pasting those same statements over 
+  and over again. Programmers use the mnemonic DRY, which stands for Don't Repeat Yourself.
+  
+- A while loop is like a loop on a roller coaster, except that it won't stop going around until the operator 
+  flips a switch.
+  
+- A while statement performs an action until a certain criteria is false. This condition uses a boolean, 
+  meaning it has a yes/no, true/false, or 0/1 value. The code will keep processing as long as that 
+  value is true. 
+  
+- The basic syntax for a while loop is:
+  while(condition) {
+  //loop code here
+  }  
+
+- Steps of a while loop:
+  1. First the condition is evaluated to determine if the loop needs to be executed.
+  2. If that's true, the statements inside of the loop are executed.
+  3. Then the condition is rechecked to determine if to run the loop again.
+  Remember to update the sentinel inside of your loop.     
+  
+- A sentinel is a variable used within the condition that controls the loop.. It's very important that 
+  somewhere in your loops there's an opportunity for the sentinel to be updated. Otherwise, this loop 
+  will run infinitely.    
+----------------------------------------------------------------------------------------------------------

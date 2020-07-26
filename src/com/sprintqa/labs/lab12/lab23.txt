@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding.
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                             Topics: Instance Variables
+---------------------------------------------------------------------------------------------------------------
+Create a class named Smartphone. Declare different specs of the smartphone such as display, memory, storage,
+processor, camera, and OS as instance variables. Create a method that displays the values of the these variables
+on the console. In main method of the tester class, create two smartphones of brands Samsung and Nokia.
+The output of your program should be:
+
+Samsung smartphone created with specs:
+Display: 6.6 inches
+RAM: 8 GB
+ROM: 512 GB
+Processor: Snapdragon 865
+Camera: 108 MP
+Operating System: Android
+
+Nokia smartphone created with specs:
+Display: 6.6 inches
+RAM: 6 GB
+ROM: 265 GB
+Processor: Snapdragon 855
+Camera: 108 MP
+Operating System: Android
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                              Topics: Static Variables
+---------------------------------------------------------------------------------------------------------------
+Create a class named Person. Initialize a static variable called name and a non-static variable called age.
+In the tester class, write print statements to call these variables. The output of your program should be:
+
+Name of the person: Tafseer
+Age of the person: 30
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                       Topics: Static Variables, Static Methods
+---------------------------------------------------------------------------------------------------------------
+Create a class named ColorPalette. Initialize a static variable array of type String. Now create static method
+to display all the colors. In main method, call this method to display all the colors of the array.
+The output of your program should be:
+
+Color Palette: white black red green blue orange yellow
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 4
+                                              Topics: Local Variables
+---------------------------------------------------------------------------------------------------------------
+Create a class named Employee. Create a method getEmployeeSalary and initialize salary within method.
+In main method of the tester class, call this method to display the salary of the employee.
+The sample output of your program should be:
+
+Salary of the employee is: 1500.0
+---------------------------------------------------------------------------------------------------------------

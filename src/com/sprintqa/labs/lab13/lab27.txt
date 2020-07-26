@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding.
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                               Topics: Overloading
+---------------------------------------------------------------------------------------------------------------
+Create a class Month and within this class create two methods that are called getMonth with below signatures:
+1. One of the methods takes an integer for the month and then return the String value of that month.
+2. Another method should have an overloaded method that will take the String version of the month and return
+   the integer.
+Create another class called MonthConverter and call these methods to print the current month on the console.
+The output of your program should be:
+
+Current Month Name is: July
+Current Month Number is: 7
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                               Topics: Overriding
+---------------------------------------------------------------------------------------------------------------
+Create two classes Rectangle and Square. Write a method calculatePerimeter when length of rectangle is 8 and
+width is 10 in the Rectangle class. You Square class should extend the Rectangle class and override the
+calculatePerimeter method. Finally, create a PerimeterTester class to call these methods and print the
+perimeters on the console. The output of your program should be:
+
+Perimeter of Rectangle: 36.0
+Perimeter of Square: 32.0
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                               Topics: Overriding
+---------------------------------------------------------------------------------------------------------------
+Create a class called Fruit. This class should contain a field called calories and a method called makeJuice(),
+which prints a statement — something like “juice is made” - just something generic.
+Then create two subclasses of the Fruit class. For example, you can do Apple and Banana, or Orange and Lemon,
+whatever you would like to do. And then create methods within these classes that are specific to them.
+So, if you're going to do the Apple class, then do something like removeSeeds(). If you're going to do the Banana
+class, then do something like peel(). And then set the calories within the constructors of these subclasses.
+Override the makeJuice() method to print the specific type of juice that's going to be made.
+And then finally create a Market class which tests polymorphism by creating several variations of these objects.
+The output of your program should be:
+
+Apple seeds removed
+Apple seeds removed
+Banana has been peeled
+Banana has been peeled
+Squeezing...Apple juice is my favorite ?
+Squeezing...Banana juice is gross ?
+Squeezing...Banana juice is gross ?
+Squeezing...Juice is made
+---------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------------------------------------
+                                     Topics: Command Line Interface
+                                             Summary Points
+--------------------------------------------------------------------------------------------------------------
+                                          Command Line Interface
+--------------------------------------------------------------------------------------------------------------
+- Today, with the widespread use of computing devices, graphical user interfaces (GUIs) are all-pervasive
+  and easily learned by almost anyone. However, we should not ignore one of the most powerful tools from a
+  bygone era, which is the commandline interface (CLI).
+
+- GUIs and CLIs approach user interaction from different angles. While GUIs emphasize userfriendliness,
+  instant feedback, and visual aesthetics, CLIs target automation and repeatability of tasks, and composition
+  of complicated task workflows that can be executed in one shot. These features result in the command line
+  having widespread utility even today, nearly half a century since its invention.
+
+- It is necessary for us to explore a little bit of computing history to fully comprehend the rationale
+  behind why CLIs came into being.
+
+- At the dawn of the computing age, computers were massive electromechanical calculators, with little or
+  no interactivity. Stacks of data and program code in the form of punched cards would be loaded into a
+  system, and after a lengthy execution, punched cards containing the results of the computation
+  would be spit out by the machines.
+
+- This was called batch processing (this paradigm is still used in many fields of computing even today).
+  The essence of batch processing is to prepare the complete input dataset and the program code by hand
+  and feed it to the machine in a batch. The computation is queued up for execution, and as soon as it
+  finishes, the output is delivered, following which the next computation in the queue is processed.
+
+- As the field progressed, the age of the teletypewriter (TTY) arrived. Computers would take input and
+  produce human—readable output interactively through a typewriterlike device.
+  This was the first time that people sat at a terminal and interacted continuously with the system,
+  looking at results of their computations live.
+
+- Eventually, TTYs with paper and mechanical keyboards were replaced by TTYs with text display screens
+  and electronic keyboards. This method of interaction with a computer via a keyboard and text display
+  device is called a commandline interface (CLI), and works as follows:
+
+  1. The system prompts the user to type a sentence (a command line).
+  2. The system executes the command, if valid, and prints out the results.
+  3. This sequence repeats indefinitely, and the user conducts their work step by step.
+
+- In a more generic sense, a CLI is also called a REPL, which stands for Read, Evaluate, Print, Loop,
+  and is defined as follows:
+
+  1. Read an input command from the user.
+  2. Evaluate the command.
+  3. Print the result.
+  4. Loop back to the first step.
+
+- The concept of a REPL is seen in many places—even the flight control computer on NASA's 1998 Deep Space 1
+  mission spacecraft had a REPL controlled from Earth, which allowed scientists to troubleshoot a failure in
+  realtime and prevent the mission from failing.
+
+--------------------------------------------------------------------------------------------------------------
+                                         Exploring the Filesystem
+--------------------------------------------------------------------------------------------------------------
+- The space in which a command line operates is called a filesystem (FS).
+
+- A lot of shell activity revolves around manipulating and organizing files? thus, learning the basics of
+  filesystems is imperative to learning the command line.
+
+- The UNIX design philosophy is to represent every object on a computer as a file? thus, the main objects
+  that we manipulate with a command line are files.
+
+- An FS is a representation of the system that's analogous to a series of nested boxes, each of which is
+  called a directory or folder.
+
+- A directory that contains another directory is called the parent directory.

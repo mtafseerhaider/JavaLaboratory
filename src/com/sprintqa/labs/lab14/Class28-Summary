@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------------------------------
+                                  Topics: Encapsulation, Wrapper Class
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                              Encapsulation
+----------------------------------------------------------------------------------------------------------
+- In general, encapsulation is a process of wrapping similar code in one place.
+
+- In Java, we can bundle fields and methods that operate together inside a single class.
+
+- Encapsulation also provides a way for data hiding.
+
+- Data hiding is a way of restricting the access of our data members by hiding the implementation details.
+
+- Data hiding can be achieved with the help of access modifiers. In Java, there are four access modifiers:
+
+  public - visible from anywhere
+  private - visible from only within the class
+  protected - visible within the package, and among its subclasses
+  default - visible within the package
+
+-  In Java, encapsulation helps us to keep related fields and methods together, which makes our code cleaner
+   and easy to read. It helps to control the modification of our data fields.
+
+- The getter and setter methods provide read-only or write-only access to our class fields.
+
+- It helps to decouple components of a system. These decoupled components can be developed, tested and debugged
+  independently and concurrently. And, any changes in a particular component do not have any effect on
+  other components.
+----------------------------------------------------------------------------------------------------------
+                                              Wrapper Classes
+----------------------------------------------------------------------------------------------------------
+- The wrapper classes in Java are used to convert primitive types (int, char, float, etc) into
+  corresponding objects.
+
+- Each of the 8 primitive types has corresponding wrapper classes.
+
+- We can also use the valueOf() method to convert primitive types into corresponding objects. This process
+  is known as auto-boxing.
+
+- To convert objects into the primitive types, we can use the corresponding value methods (intValue(),
+  doubleValue(), etc) present in each wrapper class. This process is known as unboxing.
+
+- Primitive types are more efficient than corresponding objects. Hence, when efficiency is the requirement,
+  it is always recommended primitive types.

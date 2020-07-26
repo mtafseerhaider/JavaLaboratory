@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding.
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                               Topics: Encapsulation
+---------------------------------------------------------------------------------------------------------------
+Write a class Person. Create a private fields called profession & schoolName and create its getter and setter methods.
+Create a Student and in the main method crate object of the Person class to set the profession as student and schoolName
+as SprintQA and get the newly set value on the console. The output of your program should be:
+
+I am a student and I study at SprintQA
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                               Topics: Wrapper class
+---------------------------------------------------------------------------------------------------------------
+Write a program to declare short, integer, double, character, and boolean primitive variables. Initialize these
+variables with your desired values. Use the autoboxing feature of Java to convert these variable into objects.
+Once done, write print statements to convert them back to primitive types using the unboxing feature of Java.
+The output of your program should be:
+
+short value: 5
+integer value: 6
+double value: 5.005
+character value: S
+boolean value: true
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                               Topics: Wrapper class
+---------------------------------------------------------------------------------------------------------------
+Write a program to declare byte, long, float, and character objects. Initialize these
+variables with null and print them on the console.
+The output of your program should be:
+
+Byte value: null
+Long value: null
+Float value: null
+Character value: null
+---------------------------------------------------------------------------------------------------------------

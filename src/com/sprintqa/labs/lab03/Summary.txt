@@ -1,0 +1,60 @@
+-----------------------------------------------------------------------------------------------------
+               Topics: String concatenation. Java control statements. Scanner Class. 
+                                   Summary Points
+-----------------------------------------------------------------------------------------------------
+                                          String Concatenation
+-----------------------------------------------------------------------------------------------------
+- Concatenation means appending one or more Strings to others to create one big String. 
+  The simplest way of doing concatenation is by using + operator. 
+  In this sense, + is called concatenation operator.
+-----------------------------------------------------------------------------------------------------
+                                          Java Control Statements
+                                Selection Statements: If & If-Else statements
+-----------------------------------------------------------------------------------------------------
+- A programming language uses control statements to cause the flow of execution to advance and branch 
+  based on changes to the state of a program.
+
+- Java’s program control statements can be put into the 3 categories:
+  selection, iteration, and jump.
+  
+- Selection statements allow your program to choose different paths of execution based upon the outcome 
+  of an expression or the state of a variable.  
+
+- The if statement works as a quick detour within a program. If a certain situation occurs, 
+  do something and then go back to the main flow.
+  
+  Syntax:  if (condition) {statement};
+
+- The if-else statement works as two separate paths within a program. If a certain situation occurs, 
+  do something. Otherwise, do something else.
+  
+  Syntax:  if (condition) {statement1} else {statement2};
+-----------------------------------------------------------------------------------------------------
+                                         Scanner Class
+-----------------------------------------------------------------------------------------------------
+- The Scanner class of the java.util package is used to read input data from different sources like 
+  input streams, users, files, etc.
+  
+- To use the Scanner class, create an object of the class and use any of the available methods found 
+  in the Scanner class documentation.
+  
+  import java.util.Scanner;  // Import the Scanner class
+  
+   Scanner scanner = new Scanner(System.in);  // Create a Scanner object
+   System.out.print ("Enter your input rate. >>>");
+   String input = scanner.nexLine();
+   scanner.close (); // close the scanner object
+   
+- Scanner API most used methods   
+   
+   nextBoolean()  Reads a boolean value from the user
+   nextByte()	  Reads a byte value from the user
+   nextDouble()	  Reads a double value from the user
+   nextFloat()	  Reads a float value from the user
+   nextInt()	  Reads a int value from the user
+   nextLine()	  Reads a String value from the user
+   next()         Reads a String value from the user
+   nextLong()	  Reads a long value from the user
+   nextShort()	  Reads a short value from the user
+   
+   -------------------------------------------------------------------------------------------------------

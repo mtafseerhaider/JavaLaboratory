@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding.
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                               Topics: Constructors
+---------------------------------------------------------------------------------------------------------------
+Create a class named Number and declare an integer variable within the class. Create a no-arg constructor
+and initialize number with 10 and also print its value within the constructor. Now create an object of
+the class in the main method. The output of your program should be:
+
+Object created and number = 10
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                               Topics: Constructors
+---------------------------------------------------------------------------------------------------------------
+Create a class named Company and declare an String variable called domainName within the class.
+Create a public no-arg constructor and initialize domainName with "www.sprintqa.com". Now create an object of
+the class in main method of another class. The output of your program should be:
+
+Domain name = www.sprintqa.com
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                               Topics: Constructors
+---------------------------------------------------------------------------------------------------------------
+Create a class named DefaultConstructor and declare float variable and a boolean variable within the class.
+Create an object of the class in main method. The output of your program should be:
+
+floatNumber = 0.0
+booleanValue = false
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 4
+                                               Topics: Constructors
+---------------------------------------------------------------------------------------------------------------
+Create a class named Vehicle. Create a parameterized constructor with wheels as the parameter.
+When you create two objects of the Vehicle class in main method, you should give number of wheels as 2 and 4
+respectively in the object creation statement.
+The output of your program should be:
+
+2 wheeler vehicle created.
+4 wheeler vehicle created.
+------------------------------------------------------------------------------------------------------------------

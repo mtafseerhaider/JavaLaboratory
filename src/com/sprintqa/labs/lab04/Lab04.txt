@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding. 
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step 
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 1
+                                           Topics: Switch Statement
+---------------------------------------------------------------------------------------------------------------
+Write a program that asks what is student's grade. If grade is A, then print "Excellent job!". If B, then print
+"Great job!". If C, then print "Good job!". If D, then print "You need to work a bit harder". If C, the print
+"Sorry, try again!". If student enters other than these grades, print "Error. Invalid grade".
+The sample input and output of your program should be:
+Enter your letter grade:
+D
+You need to work a bit harder
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 2
+                                           Topics: Switch Statement
+---------------------------------------------------------------------------------------------------------------
+Write a Java program to find a 2D shape when you input its sides. Do not print shapes with more than 10 sides.
+There is no shape with 1 or sides so your program should print a message saying there is no shape with 1 or 2 sides.
+For reference, note the following shapes with their sides.
+- 3 sides = Triangle
+- 4 sides = Square
+- 5 sides = Pentagon
+- 6 sides = Hexagon
+- 7 sides = Heptagon
+- 8 sides = Octagon
+- 9 sides = Nonagon
+- 10 sides = Decagon
+
+The sample input and output of your program should be:
+
+Enter number of sides:
+1
+There is a No Shape with 1 sides
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 3
+                                           Topics: Implicit Type Casting
+---------------------------------------------------------------------------------------------------------------
+Write a program to convert integer 200 into its long, float and double variants.
+The sample input and output of your program should be:
+
+Number in long: 200
+Number in float: 200.0
+Number in double: 200.0
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 4
+                                           Topics: Explicit Type Casting
+---------------------------------------------------------------------------------------------------------------
+Write a program to convert the double 15.65412145 into its byte, short, int and long variants.
+The sample input and output of your program should be:
+
+Number in byte: 15
+Number in short: 15
+Number in int: 15
+Number in long: 15
+---------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding.
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                            Topics: Exception Handling
+---------------------------------------------------------------------------------------------------------------
+The following method has a compile-time exception. Throw the exception instead of catching it.
+
+public static void createNewFile ()
+	{
+		File file = new File ("resources/nonexistentFile.txt");
+		file.createNewFile ();
+	}
+The sample output of your program should be:
+
+Throwing IOException....
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                            Topics: Exception Handling
+---------------------------------------------------------------------------------------------------------------
+Write a method to divide any number by zero and explicitly throw the arithmetic exception you might
+get at runtime. In your main method, use try-catch-finally block. In the try block, call your divide by
+zero method. Catch the arithmetic exception and in finally block print Division is fun.
+The output of your program should be:
+
+Dividing by zero is not permitted
+Division is fun!
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                            Topics: Exception Handling
+---------------------------------------------------------------------------------------------------------------
+Create a folder called resources at the root of your project. In this folder, create simple text file and
+write 1, 2, 3, 4, 5 one digit on each line. Once done, correct the below method and dont handle the exception.
+
+	public static void numbersExceptionHandling()
+	{
+		File file = new File ("resources/numbers.txt");
+		Scanner fileReader = new Scanner (file);
+
+		while (fileReader.hasNext ())
+		{
+			int num = fileReader.nextInt ();
+			System.out.println (num);
+		}
+	}
+
+Call this method in your main method and execute the program.
+The output of your program should be:
+
+1
+2
+3
+4
+5
+--------------------------------------------------------------------------------------------------------------

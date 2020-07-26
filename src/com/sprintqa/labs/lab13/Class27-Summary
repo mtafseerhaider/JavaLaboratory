@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------------------------------
+                                         Topics: Polymorphism
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                              Polymorphism
+----------------------------------------------------------------------------------------------------------
+- Polymorphism is an important concept of object-oriented programming. It simply means more than one form.
+  That is, the same entity (method or operator or object) behaves differently in different scenarios.
+  For example, The + operator in Java is used to perform two specific functions. When it is used with numbers
+  (integers and floating-point numbers), it performs addition.
+  And when we use + operator with strings, it performs string concatenation.
+
+- Specifically, in object-oriented programming, polymorphism is where a subclass can define their own unique
+  behaviors, and yet share some of the same behaviors of their superclass.
+
+-  Another example of polymorphism is where an object has a superclass type but is an instance of a subclass.
+----------------------------------------------------------------------------------------------------------
+                                           Types Polymorphism
+----------------------------------------------------------------------------------------------------------
+- In Java, Polymorphism can be divided into two types:
+  - Run-time Polymorphism aka Dynamic Polymorphism aka Late Binding
+  - Compile-time Polymorphism aka Static Polymorphism aka Early Binding
+----------------------------------------------------------------------------------------------------------
+                                 Run-time Polymorphism | Method Overriding
+----------------------------------------------------------------------------------------------------------
+- In Java, run-time polymorphism can be achieved through method overriding.
+
+- If the same method is defined in both the superclass class and the subclass class, then the method of the
+  subclass class overrides the method of the superclass. This is known as method overriding.
+------------------------------------------------------------------------------------------------------------
+                                        Java Overriding Rules
+- Both the superclass and the subclass must have the same method name, the same return type and the same
+  parameter list.
+- You cannot override the method declared as final and static.
+- You should always override abstract methods of the superclass.
+- To access the method of the superclass from the subclass, you use the super keyword.
+- The same method declared in the superclass and its subclasses can have different access specifiers.
+  However, there is a restriction. You can only use those access specifiers in subclasses that provide larger
+  access than the access specifier of the superclass.
+
+                                        Override Annotation
+- It's encouraged that you use the override annotation, which is the @ symbol followed by the word
+  Override — @Override. This is not required, but it's strongly encouraged. This lets Java know that your
+  intention is to override the method that you inherited from your super class.
+
+                                        Dynamic Method Dispatch
+- Method overriding forms the basis for one of Java’s most powerful concepts: dynamic method dispatch.
+  Dynamic method dispatch is the mechanism by which a call to an overridden method is resolved at run time,
+  rather than compile time.
+  Dynamic method dispatch is important because this is how Java implements run-time polymorphism.
+
+                                          Important principle
+- A superclass reference variable can refer to a subclass object. Java uses this fact to resolve calls to
+  overridden methods at run time.
+----------------------------------------------------------------------------------------------------------
+                                Compile-time Polymorphism | Method Overloading
+----------------------------------------------------------------------------------------------------------
+- The compile-time polymorphism can be achieved through method overloading and operator overloading.
+
+- In Java, two or more methods can have same name if they differ in parameters (different number of
+  parameters, different types of parameters, or both). These methods are called overloaded methods and this
+  feature is called method overloading.
+
+- Overloaded methods may or may not have different return types, but they must differ in parameters they accept.
+------------------------------------------------------------------------------------------------------------
+                                        Java Overloading Rules
+- Method overloading is achieved by either:
+   - changing the number of arguments.
+   - or changing the datatype of arguments.
+- Method overloading is not possible by changing the return type of methods.
+------------------------------------------------------------------------------------------------------------

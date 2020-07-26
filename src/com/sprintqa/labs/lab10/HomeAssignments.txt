@@ -1,0 +1,121 @@
+---------------------------------------------------------------------------------------------------------------
+                                                Assignment Program 1
+                                                  Topics: Methods
+---------------------------------------------------------------------------------------------------------------
+Create a method with return type as void. You method should print first 10 natural numbers on the console.
+The output of your program should be:
+
+First 10 natural numbers: 
+1 2 3 4 5 6 7 8 9 10 
+-------------------------------------------
+Solution:
+public class MethodsProgram1
+{
+
+	static void printNumbers ()
+	{
+		for (int i = 1; i <=10; i++)
+		{
+			System.out.print (i + " ");
+		}
+	}
+	
+	
+	public static void main (String[] args)
+	{
+		System.out.println ("First 10 natural numbers: ");
+		printNumbers ();
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------
+                                                Assignment Program 2
+                                                  Topics: Methods
+---------------------------------------------------------------------------------------------------------------
+Create a method with return type as int. You method should take two integer numbers as parameters and print
+the product of the provided two numbers on the console. You can use numbers as hard coded values dont need 
+to use Scanner class.
+The output of your program when two numbers are 2 and 5 should be:
+
+Product is: 10
+------------------------
+Solution:
+public class MethodsProgram02
+{
+	static int product (int a, int b)
+	{
+		return a *b;
+	}
+	
+	public static void main (String[] args)
+	{
+		System.out.println ("Product is: " + product (2, 5));
+
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------
+                                                Assignment Program 3
+                                                  Topics: Methods
+---------------------------------------------------------------------------------------------------------------
+Create a method of return type boolean. Your method should accept a string as parameter and return true if
+the length of the string is 10 otherwise return false. Call your method in the main method to print the result
+on the console. 
+You can use a string as hard coded value. Dont need to use Scanner class.
+The output of your program when string is Sprinters! should be:
+
+Length of given string is 10: true
+----------------------------------------
+Solution:
+public class MethodsProgram03
+{
+
+	static boolean isLengthCorrect (String string)
+	{
+		if (string.length () == 10)
+		{
+			return true;
+		}
+		
+		return false;
+	}
+	
+	
+	public static void main (String[] args)
+	{
+		String givenString = "Sprinters!";
+		
+		System.out.println ("Length of given string is 10: " + isLengthCorrect (givenString));
+				
+
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------
+                                                Assignment Program 4
+                                                  Topics: Methods
+---------------------------------------------------------------------------------------------------------------
+Create a method of return type int. Your method should accept a decimal number as parameter and convert it to
+integer number. You can use a double number as hard coded value. Dont need to use Scanner class.
+The output of your program when number is 15.4864 should be:
+
+Number in int: 15
+----------------------------------------
+Solution:
+public class MethodsProgram04
+{
+
+	static int convertDoubleToInt (double num)
+	{
+		int numi = (int) num; 
+		
+		return numi;
+	}
+	
+	public static void main (String[] args)
+	{
+		System.out.println ("Number in int: " + convertDoubleToInt (15.4864));
+	}
+
+}
+-------------------------------------------------------------------------------------------------------------------

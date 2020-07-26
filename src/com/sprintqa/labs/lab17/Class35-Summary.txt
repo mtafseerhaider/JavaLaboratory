@@ -1,0 +1,216 @@
+--------------------------------------------------------------------------------------------------------
+                                      Topics: Collections Framework
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                      Why the Collections Framework?
+----------------------------------------------------------------------------------------------------------
+- Limitations of Arrays
+- Processing multiple objects of the same kind in the same way is often a requirement in applications.
+- Printing the names of all the Employees in a list of Employees, computing interest for a list of Accounts,
+  or something as simple as computing the average of a list of numbers, require you do deal with a list of
+  objects instead of one single object.
+- You have already seen a data structure that is capable of holding multiple objects of the same kind -
+  array.
+- An array lets you hold references to multiple objects of a type and pass them around as a bunch.
+  However, arrays have a couple of limitations. First, an array cannot grow or shrink in length after
+  it is created. If you create an array of 10 Employees and later find out you have 11 Employees to hold, you
+  will need to create a new array with 11 slots. You can't just add one more slot in an existing array.
+
+  Second, inserting a value in the middle of an array is a bit difficult. If you want to insert an element
+  just before the last element, you will have to first shift the last element to the next position
+  and then put the value.
+
+- Although both of the limitations can be overcome by writing some extra code, these requirements are so
+  common that writing the same code over and over again is just not a good idea.
+
+- java.util.ArrayList is a class that incorporates these, and several other, features out of the box.
+
+- Java Collections framework have following benefits:
+   - One advantage collections have, over arrays, is that they are dynamic, so we don’t have to
+     declare their size in advance.
+   - Reduced Development Effort – It comes with almost all common types of collections and useful methods to
+     iterate and manipulate the data. So we can concentrate more on business logic rather than designing our collection APIs.
+   - Increased Quality – Using core collection classes that are well tested increases our program quality rather than using
+     any home developed data structure.
+   - Reusability and Interoperability
+   - Reduce effort – to learn any new API if we use core collection API classes.
+----------------------------------------------------------------------------------------------------------
+                                    Intro to Collections Framework
+----------------------------------------------------------------------------------------------------------
+- Collections are like containers that group multiple items in a single unit. For example, a jar of
+  chocolates, list of names, etc
+- A Collection is an object that holds references to other objects.
+- A Collection is a grouping of objects.
+- Java provides a collections framework which consists of interfaces, classes and methods to store and manipulate aggregate data.
+- These collections are data structures and the objects within theses collections are known as elements.
+- Some collections allow duplicate elements, while others require every element to be unique.
+- Some collections are ordered, while others are not.
+- All of the interfaces and classes for the collections framework can be found in the java.util package.
+----------------------------------------------------------------------------------------------------------
+                           Collections Framework Vs. Collection Interface
+----------------------------------------------------------------------------------------------------------
+- Collection itself is an interface and is the root of the hierarchy. Java does not provide any direct
+  implementations of the Collection interface, but there are other interfaces which inherit from Collection.
+
+- However, it is implemented through its subinterfaces like List, Set, and Queue.
+
+  For example, the ArrayList class implements the List interface which is a subinterface of the Collection Interface.
+
+- People often get confused between the collections framework and Collection Interface.
+
+- The Collection interface is the root interface of the collections framework.
+
+- The framework includes other interfaces as well: Map and Iterator. These interfaces may also have subinterfaces.
+----------------------------------------------------------------------------------------------------------
+                                     Why the Collections Framework?
+----------------------------------------------------------------------------------------------------------
+- The Java collections framework provides various data structures and algorithms that can be used
+  directly. This has two main advantages:
+  1. We do not have to write code to implement these data structures and algorithms manually.
+  2. Our code will be much more efficient as the collections framework is highly optimized.
+
+- Moreover, the collections framework allows us to use a specific data structure for a particular type
+  of data. Here are a few examples,
+
+  If we want our data to be unique, then we can use the Set interface provided by the collections framework.
+  To store data in key/value pairs, we can use the Map interface.
+  The ArrayList class provides the functionality of resizable arrays.
+----------------------------------------------------------------------------------------------------------
+                                       The List interface
+----------------------------------------------------------------------------------------------------------
+- In Java, the List interface is an ordered collection that allows us to store and access elements
+  sequentially.
+- List is a collection where the elements are ordered.
+- List can contain duplicate elements.
+- An example of where List might be used would be the phone numbers from your call history.
+  They are listed in order and some numbers may appear more than once.
+- Since List is an interface, we cannot create objects from it.
+- In order to use functionalities of the List interface, we can use these classes:
+  ArrayList, LinkedList, Vector, Stack
+----------------------------------------------------------------------------------------------------------
+                                       The Set interface
+----------------------------------------------------------------------------------------------------------
+- A set is a well-defined collection of distinct objects.
+- A set is a data structure that can store any number of unique values in any order you so wish.
+- The Set interface of the Java Collections framework provides the features of the mathematical set in Java.
+- Set is a collection which cannot contain duplicate elements.
+  Examples:
+  An example use case for Set would be a standard deck of 52 playing cards, where each card would be an element
+  in the collection and each of them are unique.
+
+  Another example is types of fingers. This set includes index, middle, ring, and pinky.
+
+- Since Set is an interface, we cannot create objects from it.
+  In order to use functionalities of the Set interface, we can use these classes:
+  HashSet, LinkedHashSet, EnumSet, TreeSet
+----------------------------------------------------------------------------------------------------------
+                                       The Queue interface
+----------------------------------------------------------------------------------------------------------
+- Queue is a collection of ordered elements, which is typically used to hold items that are going to
+  be processed in some way.
+- An example use case would be the people in the checkout line at a supermarket. People who are new to
+  the queue are added at the end and the processing of the queue is handled from the beginning.
+  This type of processing is well known as first in-first out (FIFO).
+- In queues, elements are stored and accessed in First In, First Out manner. That is, elements are added
+  from the behind and removed from the front.
+- The first element of the Queue is known as the head.
+- The last element of a Queue is known as the tail.
+- Since the Queue is an interface, we cannot provide the direct implementation of it.
+- In order to use the functionalities of Queue, we need to use classes that implement it:
+  ArrayDeque, LinkedList, PriorityQueue
+----------------------------------------------------------------------------------------------------------
+                                       The Map interface
+----------------------------------------------------------------------------------------------------------
+- Map is not a true collection, meaning it does not inherit from the Collection interface.
+  However, it contains collection-like operations, which enable them to be used as collections.
+- The Map interface of the Java collections framework provides the functionality of the map data structure.
+- Elements of Map are stored in key/value pairs. Keys are unique values associated with individual Values.
+- A map cannot contain duplicate keys. And, each key is associated with a single value.
+- We can access and modify values using the keys associated with them.
+- The Map interface maintains 3 different sets:
+  the set of keys
+  the set of values
+  the set of key/value associations (mapping).
+- An example for this would be a list of bank transactions where each Map entry has a unique transaction ID
+  serving as the key and the value would be the actual transaction object.
+- Since Map is an interface, we cannot create objects from it.
+- In order to use functionalities of the Map interface, we can use these classes:
+  HashMap, EnumMap, LinkedHashMap, WeakHashMap, TreeMap
+----------------------------------------------------------------------------------------------------------
+                                       The Iterator interface
+----------------------------------------------------------------------------------------------------------
+- The Iterator interface of the Java collections framework allows us to access elements of a collection.
+  It has a subinterface ListIterator.
+- All the Java collections include an iterator() method. This method returns an instance of iterator
+  used to iterate over elements of collections.
+- The Iterator interface provides 4 methods that can be used to perform various operations on elements
+  of collections.
+  hasNext() - returns true if there exists an element in the collection
+  next() - returns the next element of the collection
+  remove() - removes the last element returned by the next()
+  forEachRemaining() - performs the specified action for each remaining element of the collection
+----------------------------------------------------------------------------------------------------------
+                                       Collections API Algorithms
+----------------------------------------------------------------------------------------------------------
+- Java Collections Framework provides algorithm implementations that are commonly used such as sorting
+  and searching. Collections class contain these method implementations. Most of these algorithms work on
+  List but some of them are applicable for all kinds of collections.
+
+- Sorting: The sort algorithm reorders a List so that its elements are in ascending order according to an
+  ordering relationship.
+
+- Shuffling: The shuffle algorithm destroys any trace of order that may have been present in a List.
+  That is, this algorithm reorders the List based on input from a source of randomness such that all
+  possible permutations occur with equal likelihood, assuming a fair source of randomness.
+  This algorithm is useful in implementing games of chance.
+
+- Searching: The binarySearch algorithm searches for a specified element in a sorted list.
+
+- Composition: The frequency and disjoint algorithms test some aspect of the composition of one or more
+  Collections.
+   - frequency: counts the number of times the specified element occurs in the specified collection
+   - disjoint: determines whether two Collections are disjoint; that is, whether they contain no
+     elements in common
+- Min and Max values: The min and the max algorithms return, respectively, the minimum and maximum element
+  contained in a specified Collection.
+----------------------------------------------------------------------------------------------------------
+                                           List Interface Methods
+----------------------------------------------------------------------------------------------------------
+- The List interface includes all the methods of the Collection interface. Its because Collection is
+  a super interface of List. Some of the commonly used methods of the Collection interface that's also
+  available in the List interface are:
+
+  add() - adds an element to a list
+  addAll() - adds all elements of one list to another
+  get() - helps to randomly access elements from lists
+  iterator() - returns iterator object that can be used to sequentially access elements of lists
+  set() - changes elements of lists
+  remove() - removes an element from the list
+  removeAll() - removes all the elements from the list
+  clear() - removes all the elements from the list (more efficient than removeAll())
+  size() - returns the length of lists
+  toArray() - converts a list into an array
+  contains() - returns true if a list contains specified element
+----------------------------------------------------------------------------------------------------------
+                                    Looping through Collections
+----------------------------------------------------------------------------------------------------------
+- The first way is using what's called an iterator.
+- The Collection interface provides an iterator for you, in order to loop through a collection.
+- Enhanced For Loop
+  We can use the enhanced for loop.
+  for(String item: fruit){
+
+  }
+  Notice, I have an error here. This says incompatible types, so this is an Object,
+  but we're saying that it's a String.
+  That's because Collections are generic, in that they just store an Object, and since Object is the
+  grandparent to every class in Java, then that is safe to use.
+  If we wanted to be more specific, and we wanted to say that this was holding Strings, we could do
+  that with this diamond operator, which is essentially just two angle brackets (<>).
+  List<String> fruit = new ArrayList();
+
+- The forEach() method
+  There's one more approach that I haven't introduced you to yet, and that's using the forEach method.
+  On our collection, we can do a call to forEach() and this for each will take a lambda expression.
+
+----------------------------------------------------------------------------------------------------------

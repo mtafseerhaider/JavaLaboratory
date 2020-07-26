@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------------------------------
+                                   Topics: Shorthand operators. Switch.
+                                             Summary Points
+--------------------------------------------------------------------------------------------------------
+                                          Java Control Statements
+                                Selection Statements: Switch Statement
+--------------------------------------------------------------------------------------------------------
+- If situation A occurs, do something. Else if situation B occurs, do something else. Else if 
+  situation C occurs, do something else.
+  
+- The switch statement solves a problem in the same way that the if-else-if does. So, it's ideal for 
+  cases when you have more than two paths. The difference between the if-else-if and the switch 
+  statements is that the if-else-if checks the condition to be true; whereas the switch statement 
+  checks for equality.
+ 
+- Not every case needs to contain a break. If no break appears, the flow of control will fall through to 
+  subsequent cases until a break is reached.   
+----------------------------------------------------------------------------------------------------------
+                                              Type Casting
+----------------------------------------------------------------------------------------------------------
+- Casting is a process of changing one type value to another type. In Java, we can cast one type of value 
+  to another type. It is known as type casting.
+  
+- In Java, type casting is classified into two types:
+   - Widening or Automatic type conversion (Implicit): byte->short->int->long->float->double
+   - Narrowing Explicit type conversion: double->float->long->int->short->byte
+----------------------------------------------------------------------------------------------------------

@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding.
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                              Topics: List Interface
+---------------------------------------------------------------------------------------------------------------
+Write a program to create a list of names of students and print the elements of the list on console.
+The output of your program should be:
+
+List of students: [Mustafa, Guljahan, Vilden, Shakhzoda, Davy, Erdogan, Mikail, Serife, Suat, Erdal, Urve, Fidan]
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                              Topics: List Interface
+---------------------------------------------------------------------------------------------------------------
+Write a program to create a list of any 5 colors, iterate over each color using iterator method and print
+the elements of the list on console.
+The output of your program should be:
+
+White
+Black
+Red
+Green
+Blue
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                              Topics: List Interface
+---------------------------------------------------------------------------------------------------------------
+Write a program to create an array list of first 10 integer numbers using for loop. Print the list.
+Sort the list in descending order and print it again. Now search the list for the number 5 and print Found if
+the 5 exists in the list. The output of your program should be:
+
+List before sorting: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List sorted in descending order: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Found
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 4
+                                              Topics: List Interface
+---------------------------------------------------------------------------------------------------------------
+Write a program to create an array list of first 11 whole integer numbers using for loop. Print the list.
+Sort the list in descending order and print it again. Now search the list for the number 5 at it's index befored
+the list was sorted. If the number still exists, print Not shifted and number moved, print Shifted.
+The output of your program should be:
+
+List before sorting: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List sorted in descending order: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+Not Shifted
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 5
+                                              Topics: List Interface
+---------------------------------------------------------------------------------------------------------------
+Given list [C, C++, Java, JavaScript, C#, Python, Ruby, Scala]. Write a program to swap Java with C#.
+The output of your program should be:
+
+[C, C++, C#, JavaScript, Java, Python, Ruby, Scala]
+---------------------------------------------------------------------------------------------------------------

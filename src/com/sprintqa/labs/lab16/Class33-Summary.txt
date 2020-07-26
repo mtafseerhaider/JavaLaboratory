@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------------------------------
+                                      Topics: Exception Handling
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                          Rethrowing Exceptions
+----------------------------------------------------------------------------------------------------------
+- If your method has code that has the potential of throwing an exception, you must either catch that
+  exception or rethrow it.
+
+- Usually, we don't need to handle unchecked exceptions. It's because unchecked exceptions occur due to
+  programming errors. And, it is a good practice to correct them instead of handling them.
+
+- There might be several methods that can cause exceptions. Writing try...catch for each method will
+  be tedious and code becomes long and less-readable.
+
+- We use the throws keyword in the method declaration to declare the type of exceptions that might
+  occur within it.
+
+  Syntax:
+  accessModifier returnType methodName() throws ExceptionType1, ExceptionType2 … {
+    // code
+  }
+
+- throws is also useful when you have checked exception (an exception that must be handled) that you don't
+  want to catch in your current method.
+
+- The throw keyword is used to explicitly throw a single exception.
+
+  Syntax:
+  throw throwableObject;
+
+- A throwable object is an instance of class Throwable or subclass of the Throwable class.

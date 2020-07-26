@@ -1,0 +1,54 @@
+--------------------------------------------------------------------------------------------------------
+                                  Topics:  Source Control, VCS, Git
+                                             Summary Points
+----------------------------------------------------------------------------------------------------------
+                                           Git Branching
+----------------------------------------------------------------------------------------------------------
+- If I do a "git status", you can see that I'm on the master branch, and that we're currently up-to-date
+  with "origin/master", and the working directory is clean. So this is a pretty good starting point.
+  So, so far we've been doing all our changes on master, which is not best practice; what we should be
+  doing is separating our changes into branches that make the most sense. At the simplest level, we should
+  be at least creating feature branches, or topic branches, to isolate our changes and then integrate them
+  back into the master branch, once those features or topics have been stabilized.
+
+- So, to work with branches, we'll start off with the "git branch" command. And, we can start off by listing
+  our existing branches with the "-a" parameter. Now "-a" will list both the local and the remote branches.
+  And the "git branch" command will put an asterisk by the current active branch.
+
+- Now, if I want to create a new branch, I could also use the "git branch" command without any parameters,
+  except the name of the new branch I wish to create. So, I'm going to create a branch called "mynewbranch".
+  So now, if I do a "git branch -a", we have "mynewbranch" listed as one of our local branches available.
+  I'm not in that branch right now, I'm still on master. So, I need to use the "git checkout" command to
+  switch branches. Great, so now I'm on the "mynewbranch" branch; if I do a "git branch -a",
+  the asterisk has moved over to my new branch. Let's see what this looks like in history.
+  "git log --oneline --decorate". You'll see something interesting here, that the first commit that we have listed,
+  which is our last commit, has several labels associated with it. So we have "HEAD", which usually points to the
+  last commit on the current branch; "origin/master"; "origin/head", "mynewbranch", and "master".
+  So "HEAD" and "origin/head" are simply pointers to the last commit on their respective branches,
+  both local and then remote. "master" is the branch that we've been working with all along,
+  and "mynewbranch" is the branch that we just created. Since we haven't made any changes yet, all those branch
+  labels are pointing to the same commit. That's because branches are just labels; they're nothing really special,
+  they're just pointers.
+
+- Git Branching Commands:
+  1. List all branches: git branch -a
+  2. Create new branch: git branch mynewbranch
+  3. Switch to new branch: git checkout mynewbranch
+  4. To check git history: git log --oneline --decorate
+  5. Rename branch: git branch -m mynewbranch newbranch
+
+- Git Merging Commands: (Fast Forward Merge)
+  1. Create and Switch to a new branch: git checkout -b title-change
+  2. Do some change in a file and commit it and verify the change: git status and git log --oneline
+  3. Go back to master branch: git checkout master
+  4. Review the changes: git diff master title-change
+  5. Merge changes to master: git merge [name of the source branch that I want to merge into my current branch]
+  6. See the pretty history: git log --oneline --graph --decorate
+
+- Git Merging Commands: (Automatic Merge)
+  1. Create and Switch to a new branch: git checkout -b title-change
+  2. Do some change in a file and commit it and verify the change: git status and git log --oneline
+  3. Go back to master branch: git checkout master
+  4. Review the changes: git diff master title-change
+  5. Merge changes to master: git merge [name of the source branch that I want to merge into my current branch]
+  6. See the pretty history: git log --oneline --graph --decorate

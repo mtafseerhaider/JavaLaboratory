@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding. 
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step 
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 1
+                              Topics: Data Types, Variables, Arithmetic Operators
+---------------------------------------------------------------------------------------------------------------
+Write a program to compute the distance in miles light travels in 100 days, when the approximate speed of light 
+is equal to 186000 miles per second. The output of your program should be: 
+
+In 1000 days, light will travel about 16070400000000 miles.
+
+*Hint: speed = distance/time
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 2
+                             Topics: Data Types, Variables, Arithmetic Operators
+---------------------------------------------------------------------------------------------------------------
+Write a program to compute the area of a circle with radius 10.8. 
+The output of your program should be: 
+
+Area of the circle with radius 10.8 = 366.436224
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 3
+                        Topics: Arithmetic Operators, Modulus Operator, Operator Precedence
+---------------------------------------------------------------------------------------------------------------
+Write a program to add 12 to the number 2223 and then divide it by 3. Now, the modulus of the quotient is taken 
+with 7 and then multiply the resultant value by 5. Display the final result. 
+The output of your program should be:
+
+Final Result: 15
+
+*Hint: Create variables for the given literals and consider order of precedence
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 4
+                                  Topics: Arithmetic Compound Assignment Operators
+---------------------------------------------------------------------------------------------------------------
+Write a program to increase the value of an employee’s salary by 18%. The initial salary is $1600.00. 
+The output of your program should be: 
+Total Increment is: 288.0 
+Total Incremented Salary is: 1888.0
+
+*Hint: X% of Y = (X / 100) * Y
+---------------------------------------------------------------------------------------------------------------
+                                               Practice Program 5
+                       Topics: Arithmetic Operators, Assignment Operator, Modulus Operator
+---------------------------------------------------------------------------------------------------------------
+Write a program to reverse a 3-digit number e.g. 687 to 786. The output of your program should be: 
+Reverse: 786
+
+*Hint: Use division and modulus operators to get first, second, and third digits of the 3-digit number
+----------------------------------------------------------------------------------------------------------------
