@@ -23,14 +23,26 @@ public class Assignment02
 		hashMap.put ("phoneNumber", "408-1235867");
 		hashMap.put ("emailAddress", "phaybound@sprintqa.com");
 
-		// Iterating using Iterator
-		System.out.println ("| Iterating using Iterator |");
+		// Iterating using Iterator | with generics
+		System.out.println ("| Iterating using Iterator | with generics");
 		System.out.println ();
 		Iterator<Map.Entry<String, String>> entries = hashMap.entrySet ().iterator ();
 		while (entries.hasNext ())
 		{
 			Map.Entry<String, String> entry = entries.next ();
 			System.out.println ("Key = " + entry.getKey () + ", Value = " + entry.getValue ());
+		}
+
+		// Iterating using Iterator | without generics
+		System.out.println ("| Iterating using Iterator | without generics");
+		System.out.println ();
+		Iterator entries_ = hashMap.entrySet ().iterator ();
+		while (entries_.hasNext ())
+		{
+			Map.Entry entry = entries.next();
+			String key = (String) entry.getKey();
+			String value = (String) entry.getValue();
+			System.out.println ("Key = " + key + ", Value = " + value);
 		}
 
 		// Iterating using enhanced for loop
