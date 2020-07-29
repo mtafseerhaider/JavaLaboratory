@@ -1,7 +1,5 @@
 package com.sprintqa.labs.lab08;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 /**
  * @author Tafseer Haider
  * 27/06/2020

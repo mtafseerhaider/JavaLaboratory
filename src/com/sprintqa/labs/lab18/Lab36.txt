@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------------------------------------
+                                                Important
+A program, also known as software, is a set of instructions that a computer follows to perform a task.
+Before you start coding always think through the design of what it is that you're coding.
+-------------------------------------------------------------------------------------------------------------
+Given a problem, you can solve that problem using an algorithm, which is a high-level step-by-step
+guide to complete a task. Generally, it involves 5 steps:
+--------------------------------------------------------------------------------------------------------------
+Step 1 - Declare known values & unknown values
+Step 2 - Initialize known values
+Step 3 - Get values for the unknown
+Step 4 – Implement your code logic
+Step 5 – Output the program
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 1
+                                              Topics: Map Interface
+---------------------------------------------------------------------------------------------------------------
+Given below employee detail in JSON format.
+
+    "userId":"EmbelV",
+    "jobTitleName":"Automation Engineer",
+    "firstName":"Vildan",
+    "lastName":"Embel",
+    "preferredFullName":"Vildan Embel",
+    "employeeCode":"E-0001",
+    "region":"WA",
+    "phoneNumber":"408-1234567",
+    "emailAddress":"embelv@sprintqa.com"
+
+Write a program to create a hashmap from this data and print the
+following details from the map:
+
+ 1) Print out the set view of the mappings contained in the map
+ 2) Print out the collection view of the mappings contained in the map
+ 3) Print out the key view of the mappings contained in the map
+ 4) Print out the original map
+ 5) Create a shallow copy of the map and print it
+
+The output of your program should be:
+
+Set view of the map: [firstName=Vildan, lastName=Embel, jobTitleName=Automation Engineer, emailAddress=embelv@sprintqa.com, phoneNumber=408-1234567, preferredFullName=Vildan Embel, region=WA, userId=EmbelV, employeeCode=E-0001]
+
+Collection view of the map: [Vildan, Embel, Automation Engineer, embelv@sprintqa.com, 408-1234567, Vildan Embel, WA, EmbelV, E-0001]
+
+Key view of the map: [firstName, lastName, jobTitleName, emailAddress, phoneNumber, preferredFullName, region, userId, employeeCode]
+
+The original map: {firstName=Vildan, lastName=Embel, jobTitleName=Automation Engineer, emailAddress=embelv@sprintqa.com, phoneNumber=408-1234567, preferredFullName=Vildan Embel, region=WA, userId=EmbelV, employeeCode=E-0001}
+
+The cloned map: {firstName=Vildan, lastName=Embel, jobTitleName=Automation Engineer, emailAddress=embelv@sprintqa.com, phoneNumber=408-1234567, preferredFullName=Vildan Embel, region=WA, userId=EmbelV, employeeCode=E-0001}
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 2
+                                              Topics: Map Interface
+---------------------------------------------------------------------------------------------------------------
+Given below employee detail in JSON format.
+
+    "userId":"Phaybound",
+    "jobTitleName":"Automation Engineer",
+    "firstName":"Davy",
+    "lastName":"Phayboun",
+    "preferredFullName":"Davy Phayboun",
+    "employeeCode":"E-0002",
+    "region":"CO",
+    "phoneNumber":"408-1235867",
+    "emailAddress":"phaybound@sprintqa.com"
+
+Write a program to create a hashmap from this data and print the
+following details from the map:
+
+ 1) Iterate over the map using the iterator method and print key and values of the map
+ 2) Iterate over the map using the enhanced for loop method and print key and values of the map
+
+The output of your program should be:
+
+| Iterating using Iterator |
+
+Key = firstName, Value = Vildan
+Key = lastName, Value = Embel
+Key = jobTitleName, Value = Automation Engineer
+Key = emailAddress, Value = embelv@sprintqa.com
+Key = phoneNumber, Value = 408-1234567
+Key = preferredFullName, Value = Vildan Embel
+Key = region, Value = WA
+Key = userId, Value = EmbelV
+Key = employeeCode, Value = E-0001
+
+| Iterating using enhanced for loop |
+
+Key = firstName, Value = Vildan
+Key = lastName, Value = Embel
+Key = jobTitleName, Value = Automation Engineer
+Key = emailAddress, Value = embelv@sprintqa.com
+Key = phoneNumber, Value = 408-1234567
+Key = preferredFullName, Value = Vildan Embel
+Key = region, Value = WA
+Key = userId, Value = EmbelV
+Key = employeeCode, Value = E-0001
+---------------------------------------------------------------------------------------------------------------
+                                                Practice Program 3
+                                   Topics: String vs StringBuilder vs StringBuffer
+---------------------------------------------------------------------------------------------------------------
+Given string "SprintQA". Write a program to reverse this string:
+
+ 1) using simple for loop
+ 2) using StringBuilder
+ 3) using StringBuffer
+
+The output of your program should be:
+
+Reversed using for loop: AQtnirpS
+Reversed StringBuilder: AQtnirpS
+Reversed StringBuffer: AQtnirpS
+---------------------------------------------------------------------------------------------------------------
